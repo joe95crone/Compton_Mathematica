@@ -5,7 +5,7 @@ All of **my** Mathematica scripts for Compton calculations and Optimizations.
 
 Other Compton Mathematica scripts such as those by Val Kostroun are elsewhere.
 
-_Change Log_
+__Change Log__
 
 The FixedBandwidthOptExtended.nb works for the CBETA case and produces plots for CBETA that drop off at the expected minimum tunable bandwidth. 
 
