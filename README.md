@@ -30,3 +30,7 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [22/09/2020] Geoff and I noticed an error where Sun uses w0=2sigma_L which changed the Rayleigh range equation and subsequently caused a ~3.255 decrease in yield which brought the spectrum code closer into line with ICCS and ICCS3D. The shape differences are due to Sun only using emittance in 1 plane as derived for a storage ring i.e emit_x >> emit_y.
 
 [29/09/2020] The Compton caluculations notebooks have been encompassed into one single corrected + consistent notebook. The Hartemann peak brightness has been included within this too. All analytical spectral calculations - excluding optimisation - can be produced from a single notebook.  
+
+[06/10/2020] The Sun code is currently undergoing extension to 2D. The code has been constructed identically to the 1D Sun code. The polarisation component has been taken care of by the fact its contribution disappears in the forward direction - the region of interest or that we can take the case where polarisation is in the direction of the x axis. Integrals over theta_y, theta_x and k are not evaluating. The reason for this is unknown and some significant testing + checking has been used. 
+
+[09/10/2020] The Compton Optimisation code takes the previously wrote Compton Master code and re-writes this in a more Mathematica friendly way. This code runs faster and allows greater, more precise optimisations. Both the single case and tuning curve codes return the results of Compton Master i.e. code is benchmarked.
