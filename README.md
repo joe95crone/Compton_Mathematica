@@ -34,3 +34,7 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [06/10/2020] The Sun code is currently undergoing extension to 2D. The code has been constructed identically to the 1D Sun code. The polarisation component has been taken care of by the fact its contribution disappears in the forward direction - the region of interest or that we can take the case where polarisation is in the direction of the x axis. Integrals over theta_y, theta_x and k are not evaluating. The reason for this is unknown and some significant testing + checking has been used. 
 
 [09/10/2020] The Compton Optimisation code takes the previously wrote Compton Master code and re-writes this in a more Mathematica friendly way. This code runs faster and allows greater, more precise optimisations. Both the single case and tuning curve codes return the results of Compton Master i.e. code is benchmarked.
+
+[16/10/2020] The SUN2D code has been modified to include the k dependence within the integral, the Rayliegh range is excluded. Mostly this inc=volves using a k dependence within the incident photon energy. Code is still not functional.
+
+[21/10/2020] Further completion of benchmarking against the 1D case (emit_y = 1/100 emit_y_CBETAICS). Spectral shapes match pretty much exactly. Reduction overall in ICCS3D yield in comparison to the SUN1D yield. Why? 
