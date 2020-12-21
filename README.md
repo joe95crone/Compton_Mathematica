@@ -50,3 +50,5 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [11/12/2020] The Compton Optimisation notebook has been updated with a timing system for the code. This will allow better benchmarking when the code is ran in parallel.
 
 [15/12/2020] The Compton Optimisation has been parallelized. It can be ran on the apsv2 cluster. The nested tables which generate values of beta* and F_psi use parallel tables, which proved to be the fastest method for running the code (full parallelization, combinations etc. all tried). A survey over no. parallel Kernels shows ~15 is the best number to use. Code could be further improved by including the hourglass effect, proper demonstrable calculation of F_psi and being made general, not just for round beams. 
+
+[21/12/2020] The DIAMOND beamlines survey notebook has been added. This produces a plot of the Flux in 0.1% bandwidth for all of the < 30keV beamlines and also plots on this the CBETA ICS, Lyncean CLS-300 and a competitive example I designed.
