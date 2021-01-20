@@ -53,4 +53,8 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 
 [21/12/2020] The DIAMOND beamlines survey notebook has been added. This produces a plot of the Flux in 0.1% bandwidth for all of the < 30keV beamlines and also plots on this the CBETA ICS, Lyncean CLS-300 and a competitive example I designed.
 
-[15/01/2021] Quality of life improvements to ICARUS: can set no. kernels and no. QMC's from top of code, automatically selects keV or MeV (plus ph/keV/nC or ph/MeV/nC) and plot labels based on the input, and implemented an npts system to simulate a centrain no. energy points in the spectrum - ~70 produces a good spectrum and no. points @ same kernels takes same runtime across cases.  
+[15/01/2021] Quality of life improvements to ICARUS: can set no. kernels and no. QMC's from top of code, automatically selects keV or MeV (plus ph/keV/nC or ph/MeV/nC) and plot labels based on the input, and implemented an npts system to simulate a centrain no. energy points in the spectrum - ~70 produces a good spectrum and no. points @ same kernels takes same runtime across cases. 
+
+[20/01/2021] Emittance degradation via ICS interactions has been calculated by the NEQ-SR ICS Emittance Degradation notebook. This uses Z. Huang and R. Ruth Laser-Electron Storage Ring, PRL 80, 5 (1998) and Rod Loewen's Thesis calculations. Calcualtes a 0.7% flux degradation for the MAXIII NEQ-SR ICS. Also allows calculation of damping times etc. Does not include the other damping processes: synchrotron radiation and intrabeam scattering.
+
+[20/01/2021] Miyahara's Hourglass Effect has been incorporated into the parallelized Compton Optimisation code. This only really has an effect in the head-on case or with very long pulses and bunches. Otherwise the crossing angle shortens the interaction time which suppresses the hourglass effect. 
