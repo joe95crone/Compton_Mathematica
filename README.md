@@ -60,3 +60,5 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [20/01/2021] Compton_Optimisation_Hourglass.nb created. Miyahara's Hourglass Effect has been incorporated into the parallelized Compton Optimisation code. This only really has an effect in the head-on case or with very long pulses and bunches. Otherwise the crossing angle shortens the interaction time which suppresses the hourglass effect.
 
 [21/01/2021] Compton Calcs notebook has been upgraded to include Miyahara's hourglass effect.
+
+[28/01/2021] CollimatedFluxMethods.nb has been created. This attempts to contrast the methods of calculating collimated flux against each other in order to provide a comprehensive statement on which methods are viable + agree. The methods tested are Curatolo's analytical formula, Krafft's rule + approximation (F_0.5% = 5 * F_0.1%), yields from the ICARUS and ICCS3D codes and a new integral calculation based on first principles. 
