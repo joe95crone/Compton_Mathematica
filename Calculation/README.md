@@ -6,6 +6,8 @@ It is kept as it is a comprehensive example and shows where the *RMS* to *FWHM* 
 ComptonCalcs is the most simple set of calculations to do everything analytical that we like to calculate (Scattered Photon Energy, Flux, Bandwidth, Brilliance, Source Size etc).
 Code that might need updating slightly + reuploading.
 
+FWHM_RMS_CollimatedFluxInvestigation uses the derived method of collimated flux calculation to calculate collimated flux in both the DIANA and CBETA cases for both *RMS* and *FWHM* optimised cases as well as a baseline case. This is then compared to a range of other calculation methods and codes such as the calculation by Curatolo et al, Geoff Krafft's F_0.1% bandwidth calculation (only applies to FWHM), an angular spread (small angle approximation) method and the results of semi-analytical codes: ICARUS and ICCS3D. Agreement to within ~10% (as expected) is found between all methods except the Curatolo et al method which is found to be deficient by a factor ~1.5 (potentially a square root of an *RMS* to *FWHM* conversion?). This verifies the new collimated flux method as well as tests the optimisation extension to *FWHM*. 
+
 Hourglass Effect is an investigation into the Furman method of hourglass effect compensation, the Suzuki + Akagi methods of angular crossing compensation (which are equivalent)
 and the Miyahara method of combined hourglass effect and angular crossing compensation. These are all benchmarked using several cases (both beam - beam and beam - photon beam),
 which has shown that these methods are valid and reproducible. This work is then used elsewhere.
@@ -23,3 +25,5 @@ valid in the head-on case with no recoil (Thomson Scattering). It has been incor
 
 YieldCalculations is a first attempt at calculating the flux yields of the ICS semi-analytical codes SUN_1D, ICCS, ICCS3D and ICARUS. This was used to understand how to import and operate
 on the data produced, this code has since been used, improved + updated elsewhere. For example see the FWHM_RMS_CollimatedFluxInvestigation code.
+
+__Change Log__
