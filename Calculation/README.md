@@ -1,9 +1,8 @@
 __ICS Calculation + Investigation Mathematica Scripts__
 
 AngularCrossingCollimatedFlux.nb calculates the collimated flux by the new derived method + compares this to existing sources but is legacy code.
-Keep this as it shows the first attempt that went wrong!
+It is kept as it is a comprehensive example and shows where the *RMS* to *FWHM* problem wasn't accounted for and how this caused disagreement in benchmarking.
 
-CollimatedFluxInvestigations has been replaced by FWHM_RMS_CollimatedFluxInvestigations, it no longer exists.
 CollimatedFluxMethods is an even earlier version of AngularCrossingCollimatedFlux and should be deleted.
 
 ComptonCalcs is the most simple set of calculations to do everything analytical that we like to calculate (Scattered Photon Energy, Flux, Bandwidth, Brilliance, Source Size etc).
