@@ -68,3 +68,9 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [15/02/2021] The AngularCrossingCollimatedFlux.nb methodology and CollimatedFluxMethod.nb investigation have been combined into the finalised CollimatedFluxInvestigation.nb. This contains a thorough investigation of methods and code to run the new, entirely derived method. A LaTeX tech note on the methodology to follow.
 
 [16/02/2021] The Compton_Optimisation_Hourglass.nb and the Compton_Optimisation_Parallel.nb notebooks have been updated, there was a mistake within the calculation of the beta* term in which a (1+X) factor was missed.
+
+[22/03/2021] The Compton Calculation directory has been fully vetted, old code that was inadequate and didn't show anything of note has been scrapped. Adequate documentation of this expanding section has been put in place.
+
+[22/03/2021] Derived_ColFlux_Compton_Optimisation_Hourglass.nb has been added. This code builds on the round beam optimisation in Compton_Optimisation_Hourglass.nb by implementing the derived collimated flux method which replaces the defective Curatolo et al calculation. It is supplanted by the next entry.
+
+[22/03/2021] The RMS_FWHM_Compton_Optimisation.nb script has been added. This code uses the work of Ranjan et al to calculate the settings required to maximise flux in a selected bandwidth, for the round beam case, including for the angular crossing and hourglass effects.  This code uses the updated (self-derived + benchmarked) collimated flux method as first used in  Derived_ColFlux_Compton_Optimisation_Hourglass.nb and is parallelized in the same way as Compton_Optimisation_Parallel.nb. The main difference is that the optimisation here can be configured to produce the best settings for FLux in an *RMS* or *FWHM* bandwidth. 
