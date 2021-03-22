@@ -3,7 +3,6 @@ __ICS Calculation + Investigation Mathematica Scripts__
 AngularCrossingCollimatedFlux.nb calculates the collimated flux by the new derived method + compares this to existing sources but is legacy code.
 Keep this as it shows the first attempt that went wrong!
 
-CBETAICSPlots needs deleting it is shite.
 CollimatedFluxInvestigations has been replaced by FWHM_RMS_CollimatedFluxInvestigations, it no longer exists.
 CollimatedFluxMethods is an even earlier version of AngularCrossingCollimatedFlux and should be deleted.
 
