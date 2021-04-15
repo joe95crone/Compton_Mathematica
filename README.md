@@ -78,3 +78,5 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [22/03/2021] The FWHM_RMS_ColimatedFluxInvestigation.nb script has been added. This code benchmarks the new collimated flux method against existing analytical methods using *FWHM* and *RMS* bandwidth optimised and a baseline case of CBETA and DIANA. The methods used are the derived method, the Curatolo et al method, a modified form of the F_0.1% BW calculation (*FWHM* only) and an angular spread method (ANALYTICAL) as well as flux calculations from ICCS3D and ICARUS codes (SIMULATION). These all agree to ~10% except for the Curatolo et al calculation which is deficient. 
 
 [22/03/2021] The RMS_FWHM_Compton_Optimisation.nb script has been supplemented with saving functions.
+
+[15/04/2021] Medical_Isotopes.nb added with corresponding data files. This code examines some potential photonuclear production routes to medical isotopes.
