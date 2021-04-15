@@ -1,0 +1,5 @@
+EN-MAX     DATA       ERR-T      MONIT      MISC
+MEV        MB         MB         MB         NO-DIM
+50.        8.7        0.6        0.068      1.823
+60.        7.7        0.4        0.116      1.582
+70.        6.8        0.4        0.158      1.417
