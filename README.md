@@ -87,4 +87,6 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 
 [28/01/2022] An updated (ALEX VERSION) of the ICARUS code (ICARUS.nb). Polarisation etc. has been improved from the last time as well as general updates to the functioning of the code.
 
+[28/01/2022] An updated (ALEX VERSION) of the 2D Compton Calculation code (ComptonCalcs2D.nb). Extra explanation provided on some sections + link to papers that the code comes from. Extra investigations have been added, particularly my benchmarking of the ICARUS code as a function of angle + comparision of my collimated flux + Curatolo collimated flux (unfinished).
+
 
