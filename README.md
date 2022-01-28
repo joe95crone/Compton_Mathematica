@@ -84,3 +84,7 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 [27/05/2021] A GA non-round beam (varying emittance, varying beta* functions) optimisation has been created with Balsa Terzic using the SPEA2 algorithm and PISA platform. See other repository for this code. The GA_Compton_Optimisation_Results.nb is a script to analyse the results of these simulations. There is also an accompanying simplex/nelder-mead script Simplex_2D_Optimisation.nb, which produces 2D Fcol-BW IP variable optimisations using many local optimisations. As a results, sometimes this method does not produce a valid result. It only gives a single value too, insead of the full pareto space like the GA does. This is capable of producing single BW point optimisations and tuning curves. These fit well inside the pareto space of the GA. The ICS_2D_OPT_MATHEMATICA_COMP.nb script compares the simulated annealing and differential evolution approaches with the simplex method.
 
 [28/05/2021] The ComptonCalcs2D.nb script has been uploaded. This is a 2D, updated version of ComptonCalcs.nb which allows for different beta functions and emittances in each plane. The average brilliance calculation has also been updated to a more general form based on K.E. Deitrick et al, PRAB 21, 080703 (2018) which takes into account the divergence of both the laser pulse and electron bunch. 
+
+[28/01/2022] An updated (ALEX VERSION) of the ICARUS code (ICARUS.nb). Polarisation etc. has been improved from the last time as well as general updates to the functioning of the code.
+
+
