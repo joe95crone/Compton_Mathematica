@@ -89,4 +89,6 @@ The C. Sun trial file is an attempt at a Compton spectra using (16) of C. Sun bu
 
 [28/01/2022] An updated (ALEX VERSION) of the 2D Compton Calculation code (ComptonCalcs2D.nb). Extra explanation provided on some sections + link to papers that the code comes from. Extra investigations have been added, particularly my benchmarking of the ICARUS code as a function of angle + comparision of my collimated flux + Curatolo collimated flux (unfinished).
 
-[28/01/2022] An updated (ALEX VERSION) of the round beam optimisation code. No changes.
+[28/01/2022] An updated (ALEX VERSION) of the round beam optimisation code (RB_Compton_Optimisation.nb). No changes.
+
+[28/01/2022] An updated (ALEX VERSION) of the non-round beam simplex optimisation code (Simplex_2D_Optimisation.nb). No changes. Code struggles at very small emittances and high energy spreads - becomes trapped in local minima.
